@@ -5,6 +5,11 @@ let encrementocheckbox = 0;
 let encrementoradio = 0;
 let encrementovorf = 0;
 let percent = 0;
+let percent1 = 0;
+let percent2 = 0;
+let percent3 = 0;
+let percent4 = 0;
+let percent5 = 0;
 
 function corrigir(){
 
@@ -161,7 +166,7 @@ function corrigir(){
 
     // ("---------------- CALCULANDO PERCENTUAL -------------------")
     percent = percent1 + percent2 + percent3 + percent4 + percent5;
-    console.log(percent)
+    
     switch (percent){
         case 0: percentn = 100;
         break;
@@ -175,9 +180,8 @@ function corrigir(){
         break;
         case 100: percentn = 0;
         break;
-        default: console.log(teste)
+        default: console.log("teste");
     }
-    console.log(percent)
     // ("---------------- CALCULANDO PERCENTUAL -------------------")
 
     // ("---------------- MOSTRANDO OS RESULTADOS -------------------")   
